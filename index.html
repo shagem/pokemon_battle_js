@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+
+<!-- Code and design created by Sean Hageman for educational and practice purposes only, 
+    I do not claim any of the images or information on this webpage as my own. -->
+
+    <head>
+        <!-- Meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- CSS -->
+        <link rel="stylesheet" type="text/css" href="./styles.css">
+
+        <!-- JavaScript -->
+        <script src="js/gamemanager.js"></script>
+        <script src="js/player.js"></script>
+        <script src="js/enemy.js"></script>
+
+        <title>Pokemon Starters Battle!</title>
+
+    </head>
+
+    <body>
+
+        <div class="header">
+            <h1>Battle Pokemon Starters!</h1>
+            <h3>Choose your favorite Starter!</h3>
+        </div>
+
+    
+        <div class="interface">
+            <div>
+            <a href="#" onclick="GameManager.setGameStart('Bulbasaur')">
+                <div class="col-lg-8 offset-lg-2 text-center">
+                <img src="./imgs/starters_img/bulbasaur.jpeg" alt="bulbasaur">
+                <h3>Bulbasaur</h3>
+                <p>Bulbasaur resembles a small amphibian/frog, but it bears three claws on each of its feet and has no tail. Bulbasaur tend to be very rare, as they are shy creatures that prefer the company of their own kind. However, they are also generally very docile, tame, and loyal to people that they trust.</p>    
+                </div>
+            </a>
+            </div>
+            <div>
+            <a href="#" onclick="GameManager.setGameStart('Charmander')">
+                <div class="col-lg-8 offset-lg-2 text-center">
+                <img src="./imgs/starters_img/charmander.jpeg" alt="charmander">
+                <h3>Charmander</h3>
+                <p>Charmander is a small, bipedal, dinosaur-like Pokémon. Most of its body is colored orange, while its underbelly is a pale light-yellow color. Charmander is easily the most mild-mannered and well-behaved of its evolution line. Its feelings and emotions can be read by the flame on the tip of its tail.</p>    
+                </div>
+            </a>
+            </div>
+            <div>
+            <a href="#" onclick="GameManager.setGameStart('Squirtle')">
+                <div class="col-lg-8 offset-lg-2 text-center">
+                <img src="./imgs/starters_img/squirtle.jpeg" alt="squirtle">
+                <h3>Squirtle</h3>
+                <p>Squirtle is a small, light-blue Pokémon with an appearance similar to a turtle. Squirtle is usually well behaved, yet it has an underlying rebellious streak. It likes to be open with only a limited number of people and won't advertise its secrets.</p>    
+                </div>
+            </a>
+            </div>
+        </div>
+    
+
+        <div class="actions">
+
+        </div>
+
+        <div class="arena">
+
+        </div>
+
+        <div class="enemy">
+
+        </div>
+
+    </body>
+
+</html>

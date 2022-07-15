@@ -1,0 +1,57 @@
+html {
+    background-image: url('imgs/background.jpeg');
+    background-size: cover;
+    }
+
+
+img {
+        width: 200px; 
+        height: 210px;
+    }
+
+body {
+        max-width: 70vw; 
+        margin: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;  
+        font-family: 'Russo One', sans-serif;
+        border: 2px black solid;
+        background-color: #ffffff;
+    }
+
+.interface, .header, .actions, .arena, .enemy {
+        text-align: center;
+    }
+
+.header {
+        padding: 10px 0px 10px 0px; 
+        background-color: #000000; 
+        color: white
+    }
+
+.interface { 
+        padding: 10px 30px 10px 30px;
+    }
+
+.actions {
+        padding: 10px 0px 10px 0px; 
+        color: red;
+        background-color: #8b8b8b;
+        border-top: black 2px solid; 
+        border-bottom: black 2px solid;
+        display: none;
+    }
+
+.enemy {
+        padding: 15px 0px 0px 0px;
+        display: none;
+    }
+
+a {
+        color:black; text-decoration: none; font-weight: 700;
+    }
+
+a:hover {
+        text-decoration: underline;
+}
+
